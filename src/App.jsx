@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Modal from "./components/Modal";
+import BottomMenu from "./components/BottomMenu";
 function App() {
   return (
     <>
@@ -39,6 +40,7 @@ function App() {
           <Navbar />
           <Modal.Provider />
           <Hero />
+          <BottomMenu />
         </div>
       </div>
     </>
