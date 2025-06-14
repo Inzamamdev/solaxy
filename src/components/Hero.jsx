@@ -96,14 +96,14 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-            <div className="w-1/2 bg-black flex flex-col justify-start p-2">
-                <div className="border-2 w-full h-fit p-4 bg-black relative ">
+            <div className="w-1/2 flex flex-col relative justify-start p-2">
+                <div className="border-1 border-b-0 border-gray-500 w-full h-fit p-4 bg-black relative ">
                     <img
                         className="absolute -left-10 -top-7 w-24 h-24 object-contain "
                         src="/assets/images/png/sidebar-icon.png"
                     ></img>
                     <div
-                        className="flex flex-col absolute -right-12 top-9 justify-center py-8 pl-10 gap-2  bg-gradient-to-b from-cyan-400 via-blue-400 to-violet-500"
+                        className="flex flex-col absolute -z-1 -right-12 top-9 justify-center py-8 pl-10 gap-2  bg-gradient-to-b from-cyan-400 via-blue-400 to-violet-500"
                         style={{
                             clipPath: " polygon(46% 0, 100% 12%, 100% 87%, 46% 100%)",
                         }}
@@ -243,6 +243,19 @@ export default function Hero() {
                             Don't Have a Wallet?
                         </p>
                     </div>
+                </div>
+                <div className="relative w-full h-14 border-1 border-t-0 border-gray-500 bg-gray-500 div-cut-bottom-2">
+                    <div className="absolute w-full h-full bg-black div-cut-bottom-2">
+                        <a className="relative w-full h-full flex justify-start" href="https://web3paymentsolutions.io/">
+                            <img src="/assets/images/png/web3payments.png" width={150} height={150} className="absolute bottom-4 left-4" ></img>
+                        </a>
+                    </div>
+                </div>
+                <div className="w-full h-13 flex justify-end absolute bottom-20 right-5">
+                    <button className="w-fit h-fit gap-2 flex justify-around items-center text-xs bg-gradient-to-b from-cyan-400 via-blue-400 to-violet-500 py-2 px-4 rounded-xl shadow-[0_0_10px_2px_rgba(34,211,238,0.6),0_0_20px_4px_rgba(96,165,250,0.5),0_0_30px_6px_rgba(139,92,246,0.4)]">
+                        <img src="/assets/images/png/solana.png" width={30} height={30}></img>
+                        Buy With SOlana
+                    </button>
                 </div>
             </div>
         </div>
