@@ -7,7 +7,7 @@ import Dropdown from "./DropDown";
 export default function Hero() {
   return (
     <div className="w-full h-full flex justify-center gap-4 px-28 pr-42  text-white">
-      <div className="w-full h-full   border-2 p-3">
+      <div className="w-full h-full  bg-black border-2 p-3">
         <div className="w-full h-30 flex">
           <div className="h-full w-full">
             <div className="text-2xl font-bold uppercase">
