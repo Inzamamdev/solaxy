@@ -32,7 +32,12 @@ body {
 }
 
 .div-cut-bottom {
-  clip-path: polygon(0% 0%, 100% 0, 100% 89%, 24% 89%,20% 100%, 4% 100%, 0 89%);
+  clip-path: polygon(0% 0%, 100% 0, 100% 89%, 24% 89%, 20% 100%, 4% 100%, 0 89%);
+}
+
+
+.div-cut-bottom-2 {
+  clip-path: polygon(0% 0%, 100% 0, 100% 19%, 44% 19%, 39% 100%, 4% 100%, 0 19%);
 }
 
 .div-cut-top {
@@ -40,6 +45,6 @@ body {
 }
 
 
-.div-bg{
+.div-bg {
   background-image: url("./assets/body-bg-stars.png");
 }

@@ -45,10 +45,10 @@ const CountdownTimer = ({ targetDate }) => {
     <div className="bg-[rgba(0,0,0,.34)] px-6 py-4 rounded-md flex gap-6 justify-center items-center">
       {timeBoxes.map((box, idx) => (
         <div key={idx} className="text-center">
-          <div className="text-white text-xs font-bold tracking-widest">
+          <div className="text-white text-[10px] tracking-widest">
             {box.label}
           </div>
-          <div className="text-white text-3xl font-extrabold font-mono">
+          <div className="text-white text-3xl font-extrabold">
             {String(box.value).padStart(2, "0")}
           </div>
         </div>
