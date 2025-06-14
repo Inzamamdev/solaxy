@@ -1,10 +1,12 @@
 @import "tailwindcss";
+
 @font-face {
   font-family: "DesuzaPro";
   src: url("../public/assets/fonts/DesuzaPro.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   @apply bg-cover bg-center bg-no-repeat;
   background-image: url("./assets/body-bg-stars.png");
@@ -13,4 +15,31 @@ body {
 
 @theme {
   --font-desuzapro: "DesuzaPro", "sans-serif";
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%)
+  }
+
+  100% {
+    transform: translateX(-100%)
+  }
+}
+
+.knife-slice-left {
+  clip-path: polygon(9% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.div-cut-bottom {
+  clip-path: polygon(0% 0%, 100% 0, 100% 89%, 24% 89%,20% 100%, 4% 100%, 0 89%);
+}
+
+.div-cut-top {
+  clip-path: polygon(0% 0%, 0 100%, 100% 100%, 100% 0, 27% 0, 20.5% 5%, 3.5% 5%);
+}
+
+
+.div-bg{
+  background-image: url("./assets/body-bg-stars.png");
 }
