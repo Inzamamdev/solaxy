@@ -1,9 +1,16 @@
 @import "tailwindcss";
-
+@font-face {
+  font-family: "DesuzaPro";
+  src: url("../public/assets/fonts/DesuzaPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   @apply bg-cover bg-center bg-no-repeat;
   background-image: url("./assets/body-bg-stars.png");
+  font-family: "DesuzaPro", sans-serif;
 }
-/* @theme {
-  --font-display: "DesuzaPro", "sans-serif";
-} */
+
+@theme {
+  --font-desuzapro: "DesuzaPro", "sans-serif";
+}

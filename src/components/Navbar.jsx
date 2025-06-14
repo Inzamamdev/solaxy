@@ -12,7 +12,7 @@ const navItems = [
 
 export default function Navbar() {
   return (
-    <nav className="w-full  text-white px-4 py-3 flex items-center ">
+    <nav className="w-full  text-white py-3 flex items-center justify-center font-display">
       {/* Left: Logo */}
       <div className="flex items-center ">
         <img
@@ -23,10 +23,10 @@ export default function Navbar() {
       </div>
 
       {/* Center: Navigation Tabs */}
-      <div className="flex gap-3">
+      <div className="flex gap-1">
         {navItems.map((item) => (
-          <div className="relative w-[150px] h-[60px] bg-no-repeat bg-contain bg-center bg-[url('../../public/assets/images/png/tab-one.png')]">
-            <span className="font-['DesuzaPro'] absolute inset-0 flex items-center justify-center text-white font-bold text-sm font-[]">
+          <div className="relative w-[150px] h-[55px] bg-no-repeat bg-contain bg-center bg-[url('../../public/assets/images/png/tab-one.png')]">
+            <span className="font-['DesuzaPro'] absolute inset-0 flex items-center  justify-center text-white  text-sm ">
               {item.label}
             </span>
           </div>
