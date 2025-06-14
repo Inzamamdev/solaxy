@@ -147,7 +147,7 @@ export default function Hero() {
                                                 <div className="bg-blue-900 rounded-full w-fit h-fit text-7xl  font-bold text-white px-10 p-4">
                                                     !
                                                 </div>
-                                                <p className="text-xl font-bold text-center">
+                                                <p className="text-sm text-center">
                                                     Your total purchased tokens are all tokens purchased
                                                     using the connected wallet. This includes all staked
                                                     and unstaked tokens.
@@ -189,7 +189,7 @@ export default function Hero() {
                                                 <div className="bg-blue-900 rounded-full w-fit h-fit text-7xl  font-bold text-white px-10 p-4">
                                                     !
                                                 </div>
-                                                <p className="text-xl font-bold text-center">
+                                                <p className="text-sm text-center">
                                                     Unclaimed SOLX that was bought using ETH or ERC-20
                                                     USDT can be staked now. Please note that all early
                                                     staked tokens can be withdrawn 7 days after token
