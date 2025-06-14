@@ -45,13 +45,28 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
-                <div className='w-full h-3/4 border-2 border-red-400'>
+                <div className='w-full h-full bg-no-repeat bg-[url("/assets/images/png/accordion/even-open.png"))] bg-contain'>
+                    <div className="w-full h-10 border-2 ">
 
-                    <div className='w-1/3 h-full'>
-                        <img src='/assets/images/gif/skate-man.gif'>
-                        </img>
                     </div>
-                    <div className='w-full h-full border-2'>
+                    <div className="w-full h-full flex">
+                        <div className='w-2/3 h-full'>
+                            <img src='/assets/images/gif/skate-man.gif'>
+                            </img>
+                        </div>
+                        <div className='w-full h-full flex flex-col gap-4'>
+                            <div className="w-full text-4xl tracking-wide uppercase font-bold">
+                                Solaxy Crypto Presale
+                                <p className="text-blue-500">
+                                    The Solana L2
+                                </p>
+                            </div>
+                            <div className="flex flex-wrap items-center gap-2">
+                                {["Solana's first Layer 2 Chain", "Infinite scale", "best meme coin", "Multi-Chain Compatibility"].map((item, index) => (
+                                    <div key={index} className="w-fit text-center flex justify-center items-center h-10 border-2 p-4 rounded-3xl uppercase font-bold">{item}</div>
+                                ))}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
