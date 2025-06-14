@@ -125,7 +125,7 @@ export default function Hero() {
           </div>
           <BottomMenu />
         </div>
-        <div className="w-1/2 flex flex-col relative justify-start p-2">
+        <div className="w-1/2 flex flex-col h-fit relative justify-start p-2">
           <div className="border-1 border-b-0 border-gray-500 w-full h-fit p-4 bg-black relative ">
             <img
               className="absolute -left-10 -top-7 w-24 h-24 object-contain "
@@ -284,7 +284,7 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          <div className="w-full h-13 flex justify-end absolute bottom-20 right-5">
+          <div className="w-full h-13 flex justify-end absolute -bottom-3 right-5">
             <button className="w-fit h-fit gap-2 flex justify-around items-center text-xs bg-gradient-to-b from-cyan-400 via-blue-400 to-violet-500 py-2 px-4 rounded-xl shadow-[0_0_10px_2px_rgba(34,211,238,0.6),0_0_20px_4px_rgba(96,165,250,0.5),0_0_30px_6px_rgba(139,92,246,0.4)]">
               <img
                 src="/assets/images/png/solana.png"
