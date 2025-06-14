@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
-
+import Hero from "./components/Hero";
+import Modal from "./components/Modal";
 function App() {
   return (
     <>
@@ -36,6 +37,8 @@ function App() {
         <div className="relative z-20">
           {/* Your app/navbar/content */}
           <Navbar />
+          <Modal.Provider />
+          <Hero />
         </div>
       </div>
     </>
