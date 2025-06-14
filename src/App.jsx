@@ -1,11 +1,11 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Modal from "./components/Modal";
-import BottomMenu from "./components/BottomMenu";
+
 function App() {
   return (
     <>
-      <div className="relative h-screen overflow-hidden">
+      <div className="relative h-screen overflow-y-scroll overflow-x-hidden">
         {/* Background GIF */}
         <img
           src="../../public/assets/images/gif/body-bg-trails.gif" // adjust the path if importing
@@ -40,7 +40,6 @@ function App() {
           <Navbar />
           <Modal.Provider />
           <Hero />
-          <BottomMenu />
         </div>
       </div>
     </>
