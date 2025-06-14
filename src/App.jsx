@@ -4,10 +4,11 @@ import Modal from "./components/Modal";
 function App() {
   return (
     <>
-      <Modal.Provider />
-      <Hero />
-
-      <Navbar />
+      <div className=" bg-[url(../public/assets/images/png/body-bg-stars.png)] h-full w-full min-h-screen grid">
+        <Navbar />
+        <Modal.Provider />
+        <Hero />
+      </div>
     </>
   );
 }

@@ -7,9 +7,9 @@ import Dropdown from './DropDown'
 export default function Hero() {
 
     return (
-        <div className="w-full h-full flex justify-center gap-4 px-28 pr-42 bg-black text-white">
-            <div className="w-full h-full    bg-black border-2 p-3">
-                <div className="w-full h-30 flex">
+        <div className="w-full h-full flex justify-center gap-4 px-20 pr-20 text-white">
+            <div className="w-full h-full border-2 p-3">
+                <div className="w-full h-fit flex">
                     <div className="h-full w-full">
                         <div className="text-2xl font-bold uppercase">
                             $SOLX crypto presale World's first Solana Layer 2 //
@@ -40,16 +40,17 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
-                <div className='w-full border-2 border-red-500'>
-                    
+                <div className='w-full h-3/4 border-2 border-red-400'>
+
+                    <div className='w-1/3 h-full'>
+                        <img src='/assets/images/gif/skate-man.gif'>
+                        </img>
+                    </div>
+                    <div className='w-full h-full border-2'>
+                    </div>
                 </div>
-
-
-
-
-
             </div>
-            <div className="w-1/2 bg-black flex flex-col justify-start p-2">
+            <div className="w-1/2 flex flex-col justify-start p-2">
                 <div className="border-2 w-full h-fit p-4 bg-black relative ">
                     <img className="absolute -left-10 -top-7 w-24 h-24 object-contain " src="/assets/images/png/sidebar-icon.png">
                     </img>
