@@ -3,3 +3,6 @@ body {
   @apply bg-cover bg-center bg-no-repeat;
   background-image: url("./assets/body-bg-stars.png");
 }
+/* @theme {
+  --font-display: "DesuzaPro", "sans-serif";
+} */
