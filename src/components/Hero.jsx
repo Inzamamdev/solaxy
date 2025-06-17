@@ -14,7 +14,7 @@ export default function Hero() {
           <div className="w-full h-38 flex relative div-cut-bottom rounded-lg  bg-gray-600 border-3 border-gray-600">
             <div className="div-cut-bottom absolute bg-black flex w-full h-full rounded-lg p-2">
               <div className="h-full w-full flex flex-col gap-2">
-                <div className="text-lg uppercase">
+                <div className="text-xl uppercase">
                   $SOLX crypto presale World's first Solana Layer 2 //
                 </div>
                 <button
@@ -27,7 +27,7 @@ export default function Hero() {
                   Launching on major exchanges
                 </button>
               </div>
-              <div className="h-full w-2/3 flex justify-center gap-3 flex-col items-end p-3">
+              <div className="h-full w-2/3 flex justify-center gap-3 flex-col items-end p-3 ">
                 <div>
                   <Dropdown
                     defaultValue={"SOLAXY TESTNET"}
@@ -44,8 +44,8 @@ export default function Hero() {
                     onSelect={(value) => console.log("Selected:", value)}
                   />
                 </div>
-                <div className="uppercase font-bold text-lg text-transparent bg-clip-text bg-[radial-gradient(circle_at_center,_#34d399_60%,_#064e3b)]">
-                  83% Staking Rewards
+                <div className="uppercase whitespace-nowrap  text-xl text-transparent bg-clip-text bg-[radial-gradient(circle_at_center,_#a0da28_10%,_#10b15a)]">
+                  82% Staking Rewards
                 </div>
               </div>
             </div>

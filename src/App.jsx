@@ -20,7 +20,7 @@ function App() {
       <img
         src="/assets/images/gif/hand-with-eye.gif"
         alt="glow effect"
-        className="absolute bottom-0 object-cover z-10 transform -translate-x-10 -translate-y-25 pointer-events-none "
+        className="absolute bottom-0 object-cover z-10 transform -translate-x-10 -translate-y-36 pointer-events-none "
       />
       <img
         src="/assets/images/svg-icons/meteoroid.svg"
